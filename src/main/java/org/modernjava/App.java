@@ -13,6 +13,7 @@ public class App
     {
         System.out.println( "Modern Java test project." );
         Arrays.asList(1,2,3,4).stream().forEach(System.out::println);
+        System.out.println( "Modern Java test project." );
         Stream.of(1,2,3,4).forEach(System.out::println);
     }
 }
